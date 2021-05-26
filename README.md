@@ -14,7 +14,7 @@
 ## File description
 ### Training Data
     
-### BCI_Competition_2a_model_training.py
+### main_training_model.py
 * core parameter 
   * modeltype - 
     * three modeltype of EEGNet,ShallowConv,SCCNet
@@ -29,13 +29,13 @@
 ### EEGmodels.py
     import EEGNet,ShallowConvNet,SCCNet three different CNN modeltype 
 
-### kernel-weight get and save.py
+### kernel-weight save.py
     * save the original dimensional of kernel-weight as numpy array(.npy)
     * save the tSNE dimensional(2) of kernel-weight as numpy array(.npy)
 ### testing_accuracy_save.py
     * load the every epoch of saved model to testing at the testing data and save the testing accuracy as numpy array
-### Euclidean_Distance of kernel weight analysis.py
-    *calculate the the correlation metrics of kernel-weight f 3 training scheme of all CNN model during the fine-tuning process
+### kernel weight analysis.py
+    *calculate the the correlation metrics of kernel-weight 3 training scheme of all CNN model during the fine-tuning process
     *save the correlation metrics as image file(.png)
 ### Metrics_result_show.py
     *show the correlation metrics of kernel-weight 3 training scheme of all CNN model during the fine-tuning process
@@ -46,14 +46,15 @@
     
 ### 2.model retraining and model resaving (if you do not want to retrain all model you can skip this step)
     
-    BCI_Competition_2a_model_training.py
+    Run main_training_model.py
     
 
 ### 3.kernel-weight gets and save kernel-weight as numpy array
 
     Run kernel-weight get and save.py
+    
 ### 4.load every epoch of saved model and save the accuracy of testing at the test data 
     Run testing_accuracy_save.py
     
 ### 5.kernel-weight analysis metrics
-if you already have the numpy array of kernel-weight of saved model you can skip the step 2,3,4 and just execution this step
+if you already have the numpy array of kernel-weight 3 training scheme of all CNN model you can skip the step 2,3,4 and just execution this step
