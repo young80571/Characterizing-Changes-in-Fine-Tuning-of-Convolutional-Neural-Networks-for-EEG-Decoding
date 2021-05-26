@@ -28,8 +28,8 @@
     import EEGNet,ShallowConvNet,SCCNet three different CNN modeltype 
 
 ### kernel-weight get and save.py
-    * save the kernel-weight from original dimensional as numpy array
-    * save the kernel-weight from original dimensional for tSNE dimensional(2) as numpy array
+    * save the original dimensional of kernel-weight as numpy array
+    * save the tSNE dimensional(2) of kernel-weight as numpy array
 ### testing acc save 
     * load the every epoch of saved model to testing at the testing data and save the testing accuracy as numpy array
     
@@ -42,13 +42,15 @@
     
     BCI_Competition_2a_model_training.py
     
-    Run all cells
 
 
 
 ### 3.kernel-weight gets and save kernel-weight as numpy array
 
-    After train all modeltype and training scheme or you already have training scheme of all model you can execution this step
+    Run kernel-weight get and save.py
+    
+    
 ### 4.testing acc save  
-
+    Run testing acc save.py
 ### 5.kernel-weight analysis metrics
+    if you already have the numpy array of kernel-weight of saved model you can skip the step 2,3,4 and just execution this step
