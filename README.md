@@ -8,12 +8,13 @@
     |--- main_BCI_Competition_2a_model_training
         |-- EEGmodels
 
-    |--- kernel-weight get and save 
-        |--kernel-weight get
+    |--- kernel-weight save
+        |--kernelweights_get
     |--- testing_accuracy_save.py
     |--- Euclidean_Distance of kernel weight analysis
 ## File description
 ### Training Data
+    data folder
     
 ### main_training_model.py
 * core parameter 
@@ -52,7 +53,7 @@
 
 ### 3.kernel-weight gets and save kernel-weight as numpy array
 
-    Run kernel-weight get and save.py
+    Run kernel-weight save.py
     
 ### 4.load every epoch of saved model and save the accuracy of testing at the test data 
     Run testing_accuracy_save.py
