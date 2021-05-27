@@ -8,7 +8,8 @@
     |--- main_BCI_Competition_2a_model_training
         |-- EEGmodels
 
-    |--- kernel-weight get and save as array(kernel_dimension&tSNE_dimension)
+    |--- kernel-weight get and save 
+        |--kernel-weight get
     |--- testing_accuracy_save.py
     |--- Euclidean_Distance of kernel weight analysis
 ## File description
